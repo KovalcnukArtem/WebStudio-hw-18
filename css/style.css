@@ -314,20 +314,14 @@ a:hover {
 
 /* Секція HERO */
 
+
 .hero {
-  background-image: url(../img/people.png);
-  background-repeat: no-repeat;
-}
-.hero {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 1600px;
   height: 598px;
+  margin: 0 auto;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
-  z-index: 1;
-  pointer-events: none;
+  background-image: url(../img/people.png);
+  background-repeat: no-repeat;
 }
 
 /* Секція "ADVANTAGES" */
